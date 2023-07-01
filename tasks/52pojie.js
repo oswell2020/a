@@ -16,10 +16,10 @@ const cookie = '';
 /*
 [Script]
 # 吾爱签到
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+cron "0 9 * * *" script-path=https://raw.githubusercontent.com/oswell2020/a/loon/tasks/52pojie.js
 
 # 获取Cookie
-http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/oswell2020/a/loon/tasks/52pojie.js
 
 [Mitm] 
 hostname= www.52pojie.cn
